@@ -60,7 +60,7 @@
 @media (max-width: 768px) {
   .navList {
     position: fixed;
-    top: 0;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -71,6 +71,9 @@
     gap: 3rem;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
+    height: -moz-max-content;
+    height: max-content;
+    padding: 8px 0;
   }
   .navList.navOpen {
     transform: translateX(0);
