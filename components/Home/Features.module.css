@@ -1,0 +1,45 @@
+.features {
+  background: var(--surface);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.featureCard {
+  padding: 2.5rem;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.featureCard h3 {
+  margin: 1.5rem 0 1rem;
+  color: var(--text-dark);
+  font-size: 1.3rem;
+}
+.featureCard p {
+  color: var(--text-light);
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.featureIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background: linear-gradient(45deg, var(--primary-dark), var(--secondary-dark));
+  border-radius: 50%;
+  color: white;
+  transition: transform 0.3s ease;
+}
+.featureCard:hover .featureIcon {
+  transform: scale(1.1);
+}/*# sourceMappingURL=Features.module.css.map */

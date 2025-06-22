@@ -1,0 +1,61 @@
+.hero {
+  background: linear-gradient(135deg, rgba(26, 35, 126, 0.05), rgba(0, 172, 193, 0.05));
+  padding: 8rem 0 5rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 6rem 0 3rem;
+  }
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.heroContent h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--text-dark);
+}
+.heroContent .heroDescription {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+.heroStats {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+@media (max-width: 768px) {
+  .heroStats {
+    gap: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .heroStats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+.statItem h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 768px) {
+  .statItem h3 {
+    font-size: 2rem;
+  }
+}
+.statItem p {
+  color: var(--text-light);
+  font-weight: 500;
+  margin: 0;
+}/*# sourceMappingURL=Hero.module.css.map */

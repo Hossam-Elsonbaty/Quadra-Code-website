@@ -1,0 +1,137 @@
+.contactInfo h2 {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+.contactInfo .infoDescription {
+  color: var(--text-light);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.contactMethods {
+  margin-bottom: 3rem;
+}
+
+.contactMethod {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px var(--shadow);
+  transition: transform 0.3s ease;
+}
+.contactMethod:hover {
+  transform: translateY(-2px);
+}
+.contactMethod:last-child {
+  margin-bottom: 0;
+}
+
+.methodIcon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, var(--primary-dark), var(--secondary-dark));
+  border-radius: 50%;
+  color: white;
+}
+
+.methodInfo h3 {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.methodContact {
+  font-weight: 600;
+  color: var(--primary-dark);
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.methodDescription {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.responseInfo {
+  margin-bottom: 3rem;
+}
+.responseInfo h3 {
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.responseList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.responseItem {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.responseIcon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface);
+  border-radius: 50%;
+  color: var(--secondary-dark);
+}
+
+.responseItem h4 {
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+}
+.responseItem p {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.businessHours h3 {
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.hours {
+  background: var(--surface);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.hourItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.hourItem:last-child {
+  border-bottom: none;
+}
+.hourItem span:first-child {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+.hourItem span:last-child {
+  color: var(--text-light);
+}/*# sourceMappingURL=ContactInfo.module.css.map */
