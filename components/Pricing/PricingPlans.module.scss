@@ -1,0 +1,145 @@
+.pricing {
+  background: white;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pricingCard {
+  padding: 2.5rem;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: var(--primary-light);
+  }
+
+  &.popular {
+    border-color: var(--primary-dark);
+    transform: scale(1.05);
+
+    @media (max-width: 768px) {
+      transform: none;
+    }
+  }
+}
+
+.popularBadge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(45deg, var(--primary-dark), var(--secondary-dark));
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.pricingHeader {
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+}
+
+.price {
+  margin-bottom: 1.5rem;
+}
+
+.priceAmount {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+  line-height: 1;
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+}
+
+.pricePeriod {
+  color: var(--text-light);
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.planDescription {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  flex-grow: 1;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    svg {
+      color: var(--success);
+      flex-shrink: 0;
+    }
+
+    span {
+      color: var(--text-light);
+      text-align: left;
+    }
+  }
+}
+
+.planButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.customPricing {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 3rem;
+  background: var(--surface);
+  border-radius: 12px;
+
+  h3 {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: var(--text-light);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,51 @@
+.hero {
+  background: linear-gradient(135deg, rgba(26, 35, 126, 0.05), rgba(0, 172, 193, 0.05));
+  padding: 8rem 0 5rem;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 6rem 0 3rem;
+  }
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: var(--text-dark);
+  }
+
+  .heroDescription {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    line-height: 1.7;
+    margin-bottom: 3rem;
+  }
+}
+
+.heroFeatures {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.featureIcon {
+  font-size: 1.5rem;
+}
