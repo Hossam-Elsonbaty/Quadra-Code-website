@@ -6,9 +6,9 @@ const Hero = () => {
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
-            <h1>About TechVision Solutions</h1>
+            <h1>About Quadra Code Solutions</h1>
             <p className={styles.heroDescription}>
-              Founded in 2016, TechVision Solutions has been at the forefront of software 
+              Founded in 2016, Quadra Code Solutions has been at the forefront of software 
               innovation, helping businesses transform their ideas into powerful digital solutions. 
               We combine cutting-edge technology with creative problem-solving to deliver 
               exceptional results for our clients worldwide.

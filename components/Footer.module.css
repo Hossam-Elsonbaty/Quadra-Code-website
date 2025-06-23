@@ -57,6 +57,9 @@
   font-weight: 700;
   margin-bottom: 1rem;
 }
+.logo .logoImage {
+  width: 80px;
+}
 .logo svg {
   color: var(--secondary-light);
 }

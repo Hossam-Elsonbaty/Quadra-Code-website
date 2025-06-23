@@ -49,6 +49,13 @@
 .logo svg {
   color: var(--secondary-dark);
 }
+.logo .logoImage {
+  width: -moz-max-content;
+  width: max-content;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .navList {
   display: flex;

@@ -6,7 +6,7 @@ const ContactInfo = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email Us',
-      info: 'hello@techvision.com',
+      info: 'hello@Quadra Code.com',
       description: 'Send us an email anytime'
     },
     {

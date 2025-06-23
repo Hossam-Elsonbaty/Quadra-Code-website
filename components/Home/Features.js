@@ -39,7 +39,7 @@ const Features = () => {
     <section className={`${styles.features} section`}>
       <div className="container">
         <div className="text-center mb-5">
-          <h2>Why Choose TechVision?</h2>
+          <h2>Why Choose Quadra Code?</h2>
           <p className={styles.subtitle}>
             We combine technical expertise with innovative thinking to deliver 
             exceptional software solutions that drive business growth.

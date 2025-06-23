@@ -7,21 +7,21 @@ const Testimonials = () => {
       name: 'Sarah Johnson',
       position: 'CEO, InnovateCorp',
       image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
-      content: 'TechVision transformed our business with their exceptional software solutions. Their team\'s expertise and dedication exceeded our expectations.',
+      content: 'Quadra Code transformed our business with their exceptional software solutions. Their team\'s expertise and dedication exceeded our expectations.',
       rating: 5
     },
     {
       name: 'Michael Chen',
       position: 'CTO, StartupXYZ',
       image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
-      content: 'Working with TechVision was a game-changer. They delivered a scalable solution that perfectly matched our requirements and timeline.',
+      content: 'Working with Quadra Code was a game-changer. They delivered a scalable solution that perfectly matched our requirements and timeline.',
       rating: 5
     },
     {
       name: 'Emily Rodriguez',
       position: 'Founder, TechStart',
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
-      content: 'The quality of work and attention to detail from TechVision is outstanding. They truly understand modern software development.',
+      content: 'The quality of work and attention to detail from Quadra Code is outstanding. They truly understand modern software development.',
       rating: 5
     }
   ];

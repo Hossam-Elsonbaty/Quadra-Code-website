@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'TechVision Solutions - Leading Software Development Company',
+  title: 'Quadra Code Solutions - Leading Software Development Company',
   description: 'Professional software development services, custom applications, and innovative technology solutions for businesses worldwide.',
   keywords: 'software development, web applications, mobile apps, custom software, technology solutions',
 };

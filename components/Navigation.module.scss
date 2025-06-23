@@ -49,8 +49,12 @@
   svg {
     color: var(--secondary-dark);
   }
+  .logoImage {
+    width: max-content;
+    height: 50px;
+    object-fit: cover;
+  }
 }
-
 .navList {
   display: flex;
   list-style: none;

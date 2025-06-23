@@ -60,7 +60,9 @@
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-
+  .logoImage {
+    width:80px;
+  }
   svg {
     color: var(--secondary-light);
   }

@@ -3,8 +3,8 @@ import ContactForm from '@/components/Contact/ContactForm';
 import ContactInfo from '@/components/Contact/ContactInfo';
 
 export const metadata = {
-  title: 'Contact Us - TechVision Solutions',
-  description: 'Get in touch with TechVision Solutions for your software development needs. We are ready to help bring your ideas to life.',
+  title: 'Contact Us - Quadra Code Solutions',
+  description: 'Get in touch with Quadra Code Solutions for your software development needs. We are ready to help bring your ideas to life.',
 };
 
 export default function Contact() {

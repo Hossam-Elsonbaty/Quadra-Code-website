@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Code } from 'lucide-react';
 import styles from './Navigation.module.scss';
-
+// import Image from 'next/image'; 
+// import QLogo from './Logo.png'; 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,10 +34,10 @@ const Navigation = () => {
       <nav className={styles.nav}>
         <div className={styles.container}>
           <Link href="/" className={styles.logo}>
-            <Code size={32} />
-            <span>TechVision</span>
+            <img src='/Logo.png' alt="Quadra Code Logo" className={styles.logoImage}/>
+            {/* <Code size={32} />
+            <span>Quadra Code</span> */}
           </Link>
-
           <ul className={`${styles.navList} ${isOpen ? styles.navOpen : ''}`}>
             {navItems.map((item) => (
               <li key={item.href}>

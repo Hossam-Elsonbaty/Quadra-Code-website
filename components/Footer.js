@@ -9,8 +9,8 @@ const Footer = () => {
         <div className={styles.footerContent}>
           <div className={styles.footerSection}>
             <div className={styles.logo}>
-              <Code size={32} />
-              <span>TechVision</span>
+              <img src="/Logo2.png" alt="Quadra Code Logo" className={styles.logoImage} />
+              <span>Quadra Code</span>
             </div>
             <p className={styles.description}>
               Leading software development company delivering innovative solutions 
@@ -56,7 +56,7 @@ const Footer = () => {
             <div className={styles.contactInfo}>
               <div className={styles.contactItem}>
                 <Mail size={16} />
-                <span>hello@techvision.com</span>
+                <span>hello@Quadra Code.com</span>
               </div>
               <div className={styles.contactItem}>
                 <Phone size={16} />
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.footerBottom}>
-          <p>&copy; 2024 TechVision Solutions. All rights reserved.</p>
+          <p>&copy; 2024 Quadra Code Solutions. All rights reserved.</p>
           <div className={styles.footerLinks}>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

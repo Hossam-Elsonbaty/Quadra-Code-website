@@ -5,7 +5,7 @@ const Timeline = () => {
     {
       year: '2016',
       title: 'Company Founded',
-      description: 'TechVision Solutions was established with a vision to revolutionize software development.'
+      description: 'Quadra Code Solutions was established with a vision to revolutionize software development.'
     },
     {
       year: '2018',
@@ -35,7 +35,7 @@ const Timeline = () => {
         <div className="text-center mb-5">
           <h2>Our Journey</h2>
           <p className={styles.subtitle}>
-            Key milestones that have shaped TechVision Solutions over the years
+            Key milestones that have shaped Quadra Code Solutions over the years
           </p>
         </div>
 

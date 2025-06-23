@@ -35,7 +35,7 @@ const Team = () => {
         <div className="text-center mb-5">
           <h2>Meet Our Team</h2>
           <p className={styles.subtitle}>
-            The talented individuals driving innovation and excellence at TechVision
+            The talented individuals driving innovation and excellence at Quadra Code
           </p>
         </div>
 
